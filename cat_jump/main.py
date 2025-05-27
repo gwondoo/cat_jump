@@ -168,7 +168,7 @@ def run():
                                 cat_state = "dead"
                                 draw_screen(cat_state, cat_y, obstacles, frame, background_objects)
                                 print("\033[?5h")
-                                time.sleep(0.2)
+                                time.sleep(0.05)
                                 print("\033[?5l")
                                 print("Game Over! meow!")
                                 return
