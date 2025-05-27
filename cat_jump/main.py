@@ -76,10 +76,13 @@ def draw_screen(cat_state, cat_y, obstacles, frame, background_objects):
                             line[x + 1] = " "
                 screen_lines[y] = "".join(line)
 
-    sys.stdout.write(f"Score: {frame}\n")
-    sys.stdout.write("\n".join(screen_lines) + "\n")
-    sys.stdout.write("-" * SCREEN_WIDTH + "\n")
-    sys.stdout.flush()
+    try:
+        sys.stdout.write(f"Score: {frame}\n")
+        sys.stdout.write("\n".join(screen_lines) + "\n")
+        sys.stdout.write("-" * SCREEN_WIDTH + "\n")
+        sys.stdout.flush()
+    except BlockingIOError:
+        pass
 
 def run():
     frame = 0
@@ -171,7 +174,7 @@ def run():
                 frame += 1
 
                 if frame % 100 == 0 and frame != last_beep_score:
-                    print('\a', end='')  # 터미널 알림음
+                    print('\a', end='')
                     last_beep_score = frame
 
                 last_frame_time = now
