@@ -1,6 +1,6 @@
 [project]
-name = "cat-jump-game"
-version = "0.1.1"
+name = "cat-jump"
+version = "0.1.2"
 description = "A terminal-based ASCII cat jump game"
 authors = [
     { name = "Your Name", email = "you@example.com" }
