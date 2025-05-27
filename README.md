@@ -21,7 +21,7 @@ cat-jump
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key         | Action         |
 |-------------|----------------|
@@ -73,6 +73,6 @@ python -m cat_jump.main
 
 ---
 
-## 📜 License
+## License
 
 MIT License © 2025 gwondoo
