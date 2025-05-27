@@ -167,6 +167,7 @@ def run():
                             if x in range(CAT_POS_X, CAT_POS_X + CAT_WIDTH) and obs_y in range(cat_y, cat_y + CAT_HEIGHT):
                                 cat_state = "dead"
                                 draw_screen(cat_state, cat_y, obstacles, frame, background_objects)
+                                print('\a\a\a')
                                 print("Game Over! meow!")
                                 return
 
