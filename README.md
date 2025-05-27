@@ -8,7 +8,7 @@ Jump over emoji obstacles, enjoy animated backgrounds, and rack up your score as
 ## Installation
 
 ```bash
-pip install cat-jump-game
+pip install cat-jump
 ```
 
 ---
