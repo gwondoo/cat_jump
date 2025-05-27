@@ -3,6 +3,8 @@
 A terminal-based ASCII cat jump game inspired by the classic Chrome dinosaur game.  
 Jump over emoji obstacles, enjoy animated backgrounds, and rack up your score as the game speeds up!
 
+> **Note**: This game is optimized for macOS terminal environments (such as Terminal.app or iTerm2). Some visual effects like blinking may not work on Windows or limited terminals.
+
 ---
 
 ## Installation
